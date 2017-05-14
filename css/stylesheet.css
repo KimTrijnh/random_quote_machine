@@ -1,0 +1,101 @@
+/*fonts
+font-family: 'Sail', cursive;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Averia Sans Libre', cursive;
+*/
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+background: #ffffff url('http://dutchbookchick.com/wp-content/uploads/2016/09/Suits.png') no-repeat top;
+background-size: cover;
+position: relative;
+}
+
+.nav-bar,
+/* .header, */
+.quote-box,
+footer {
+width: 100%;
+height: auto;
+text-align: center;
+padding: 10px;
+}
+.quote-box {
+margin-top: 15vh;
+}
+
+.icon {
+display: inline-block;
+text-decoration: none;
+color: rgba(58, 58, 58, 0.75);
+padding: 0 5px;
+font-size: 20px;
+}
+
+
+.quote {
+border-radius: 5px;
+background-color: rgba(22, 118, 166, 0.8);
+width: 80%;
+height: auto;
+padding: 5%;
+margin: 10px auto;
+color: white;
+}
+#quote {
+font: bold 2em 'Libre Franklin', sans-serif;
+
+}
+#author {
+font: 0.8em 'Libre Franklin', sans-serif;
+display: inline-block;
+margin: 15px 0 0;
+
+}
+
+.quote-btn {
+border: none;
+border-radius: 3px;
+background-color: rgba(194, 25, 28, 0.81);
+padding: 10px 20px;
+font-size: 1.3em;
+color: white;
+font-family: 'Averia Sans Libre', cursive;
+}
+
+footer {
+position: absolute;
+bottom: 0;
+color: rgba(58, 58, 58, 0.75);
+font-family: 'Averia Sans Libre', cursive;
+text-decoration: none;
+}
+
+footer a {
+color: rgba(160, 7, 7, 0.84);
+text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+/* For tablets & destop */
+.container {
+   width: 100vw;
+   height: 100vh;
+   background: url('http://tpd6-grupo1.ulima.pe/Prieto/wp-content/uploads/2017/04/personajes.jpg') no-repeat top;
+   background-size: cover;
+   position: relative;
+}
+footer,
+nav {
+   background: rgba(186, 186, 186, 0.65);
+}
+.quote {
+   width: 60%;
+}
